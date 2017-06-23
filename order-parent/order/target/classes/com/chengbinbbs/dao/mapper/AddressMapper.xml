@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chengbinbbs.dao.AddressMapper">
+  <resultMap id="BaseResultMap" type="com.chengbinbbs.domain.Address">
+    <result column="id" property="id" />
+    <result column="user_id" property="userId" />
+    <result column="provience" property="provience" />
+    <result column="city" property="city" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, user_id,provience, city
+  </sql>
+
+  <select id="findByUserID" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from address
+    where user_id = #{userId}
+  </select>
+
+</mapper>

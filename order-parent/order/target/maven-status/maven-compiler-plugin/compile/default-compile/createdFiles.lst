@@ -1,0 +1,6 @@
+com\chengbinbbs\utils\BeanUtil.class
+com\chengbinbbs\dao\AddressMapper.class
+com\chengbinbbs\App.class
+com\chengbinbbs\utils\StringUtils.class
+com\chengbinbbs\service\AddressServiceImpl.class
+com\chengbinbbs\domain\Address.class
