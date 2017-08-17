@@ -1,7 +1,7 @@
 package com.chengbinbbs.dto;
 
-import com.chengbinbbs.api.dto.AddressDTO;
-import com.chengbinbbs.api.dto.UserDTO;
+import com.chengbinbbs.api.entity.AddressDTO;
+import com.chengbinbbs.api.entity.UserDTO;
 
 import java.io.Serializable;
 
@@ -9,9 +9,9 @@ import java.io.Serializable;
  * 用户详情
  *
  * @author zhangcb
- * @created 2017-05-22 18:31.
+ * @created 2017-05-23 11:26.
  */
-public class UserInfoDTO implements Serializable{
+public class UserInfoDTO implements Serializable {
 
     private UserDTO user;
 

@@ -1,6 +1,0 @@
-com\chengbinbbs\utils\BeanUtil.class
-com\chengbinbbs\domain\User.class
-com\chengbinbbs\dao\UserMapper.class
-com\chengbinbbs\App.class
-com\chengbinbbs\service\UserServiceImpl.class
-com\chengbinbbs\utils\StringUtils.class
